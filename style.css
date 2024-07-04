@@ -3,6 +3,6 @@
 
 :root{
     --cor-de-funfo: rgb(230, 50, 26);
-    --cor-do-cabecalho: rgb(255, 73, 12);
+    --cor-do-cabecalho: rgba(255, 73, 12, 0.801);
 }
 body{background-color: var(--cor-de-funfo);}
