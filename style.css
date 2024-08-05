@@ -2,7 +2,7 @@
 
 
 :root{
-    --cor-de-funfo: rgba(253, 28, 69, 0.726);
+    --cor-de-funfo: rgb(250, 250, 250);
     --cor-do-cabecalho: rgba(153, 42, 42, 0.801);
 }
 body{background-color: var(--cor-de-funfo);}
