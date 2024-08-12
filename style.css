@@ -4,6 +4,6 @@
 :root{
     --cor-de-funfo: rgb(250, 250, 250);
     --cor-do-cabecalho: rgba(153, 42, 42, 0.801);
-    --cor-do-menu: rgb(3, 3, 3);
+    --cor-do-menu: rgb(153, 42, 42, 0.801);
 }
 body{background-color: var(--cor-de-funfo);}
