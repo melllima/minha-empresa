@@ -30,7 +30,7 @@
     width: 30vw
 }
 
-.container_botao:checked~.lista-menu{
+.container_botao:checked ~ .lista-menu{
     display: block;
 }
 
