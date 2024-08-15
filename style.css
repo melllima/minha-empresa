@@ -3,7 +3,7 @@
 
 
 :root{
-    --cor-de-funfo: rgb(153, 7, 7);
+    --cor-de-funfo: rgb(153, 42, 42, 0.801);
     --cor-do-cabecalho: rgb(255, 255, 255);
     --cor-do-menu: rgb(153, 42, 42, 0.801);
 }
