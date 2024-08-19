@@ -5,6 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>RAFA FOOD</title>
     <link rel="stylesheet" href="reset.css">
+
+    <link
+rel="stylesheet"
+href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css&quot;
+/>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -53,6 +58,44 @@
             <p class="banner-texto">Estamos localizados na Rua das Oliveiras 135. Atendemos de Terça-Feira á Domingo, das 18h ás 00h</p>
             <input type="search" class="banner-pesquisa" placeholder="O que procurar?">
         </section>
+
+
+        <section class="carrossel">
+            <h2 class="carrossel-titulo">
+                Meus produtos:
+            </h2>
+
+          <div class="swiper">
+              <div class="swiper-wrapper">
+                 
+                  <div class="swiper-slide"><img src="pizza salgada1.png" alt="Pizzas salgadas"/></div>
+                  <div class="swiper-slide"><img src="pizza salgada2.png" alt="Pizzas salgadas"/></div>
+                  <div class="swiper-slide"><img src="pizza salgada3.png" alt="Pizzas salgadas"/></div>
+                  <div class="swiper-slide"><img src="pizza salgada4.png" alt="Pizzas salgadas"/></div>
+                  <div class="swiper-slide"><img src="pizza doce1.png" alt="Pizzas doces"/></div>
+                  <div class="swiper-slide"><img src="pizza doce2.png" alt="Pizzas doces"/> </div>
+                
+                  
+                </div>
+       
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+              </div>    
+            </div>
+
+        </section>
+
+        <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script&gt;
+        <script>
+          const swiper = new Swiper(".swiper", {
+            spaceBetween: 10,
+            slidesPerView: 3,
+            pagination: {
+              el: ".swiper-pagination",
+              type: "bullets",
+            },
+          });
+        </script>
 
    
 </body>
