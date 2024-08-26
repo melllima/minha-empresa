@@ -1,6 +1,6 @@
 .banner {
-    background: red(153, 7, 7)
-    color: var(--vermelho);
+    background:var(--cor-de-fundo);
+    color: red;
     text-align: center;
     padding: 2.5em 2em;
   }
