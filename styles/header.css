@@ -50,6 +50,12 @@
             background-clip: text;
             text-transform: uppercase;
             }
+
+
+            .container_botao{display: nome;}
+         
+            
+         
             @media screen and (min-width: 1024px){
                 .container-texto{
                     display: block;}
