@@ -50,4 +50,15 @@
             background-clip: text;
             text-transform: uppercase;
             }
+            @media screen and (min-width: 1024px){
+                .container-texto{
+                    display: block;}
+                .container-link{
+                    display: flex;
+                    align-items: center;
+                    text-decoration: none;
+                    color: black;
+               
+                }
+            }
 
