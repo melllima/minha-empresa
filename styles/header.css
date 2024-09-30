@@ -54,7 +54,8 @@
 
             .container_botao{display: none;}
          
-.container-texto{display: none; }            
+.container-texto{display: none;
+padding: 0 15px 0 0; }            
          
             @media screen and (min-width: 1024px){
                 .container-texto{
